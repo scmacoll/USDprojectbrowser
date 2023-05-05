@@ -1,0 +1,26 @@
+{
+  "name": "USD_Project_Browser",
+  "version": "1.0.0",
+  "description": "Houdini Pane Interface File Directory that allows users to navigate directories to view and import USD related files.",
+  "author": "scmacoll",
+  "url": "https://github.com/scmacoll/USDprojectbrowser",
+  "dependencies": [],
+  "env": [
+    {
+      "HOUDINI_PATH": "&",
+      "HOUDINI_PANE_TOOL_PATH": "$HOUDINI_PATH/USD_Project_Browser"
+    }
+  ],
+  "path": {
+    "HOUDINI_PATH": [
+      "$HOUDINI_PANE_TOOL_PATH"
+    ],
+    "python_panels": [
+      {
+        "name": "usdprojectbrowser",
+        "label": "USD Project Browser",
+        "path": "$HOUDINI_PANE_TOOL_PATH/python_panel_interface.py"
+      }
+    ]
+  }
+}
