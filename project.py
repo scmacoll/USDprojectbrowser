@@ -651,7 +651,8 @@ class UsdBrowser(QtWidgets.QWidget):
     def import_button(self):
         self.selected_usd = self.scene_list.currentItem()
         if self.selected_usd is not None \
-                and self.selected_usd.text().endswith(('.usda', '.usdc')):
+                and self.selected_usd.text().endswith(('usd', '.usda',
+                                                       '.usdc')):
             self.import_usd()
         else:
             self.comment_text(comment="can only import usd files!")
