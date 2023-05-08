@@ -20,7 +20,7 @@ This **Houdini Tool** is a Pane Interface that acts as a File Directory Browser 
 
 2. Place the `usdbrowser.pypanel` file into the appropriate directory for Houdini Python Panels:
     - Windows: `C:\Users\[username]\Documents\houdini[version]\python_panels`
-    - macOS: `/Users/stu/Library/Preferences/houdini/[version]/python_panels`
+    - macOS: `/Users/[username]/Library/Preferences/houdini/[version]/python_panels`
     - Linux: `~/houdini[version]/python_panels`
     
 3. Add the USD Project Browser interface to the Toolbar Menu:
