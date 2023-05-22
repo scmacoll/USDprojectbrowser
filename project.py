@@ -812,3 +812,4 @@ class UsdBrowser(QtWidgets.QWidget):
                                QtCore.Qt.Key_Return):
             self.enter_pressed_on_search_bar = False
         super(UsdBrowser, self).keyReleaseEvent(event)
+
